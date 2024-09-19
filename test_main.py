@@ -16,11 +16,11 @@ class TestScript(unittest.TestCase):
             os.remove(plot_path)
 
         # Run the script and capture output
-        result = subprocess.run(["python", "script.py"], capture_output=True, text=True)
+        result = subprocess.run(["python", "main.py"], capture_output=True, text=True)
 
         # Check if script ran successfully
         self.assertEqual(
-            result.returncode, 0, "script.py did not execute successfully."
+            result.returncode, 0, "main.py did not execute successfully."
         )
 
         # Check if 'plot.png' was created
