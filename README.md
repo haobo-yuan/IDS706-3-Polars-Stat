@@ -1,11 +1,11 @@
-![Install Dependencies](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/install.yml/badge.svg)
-![Format Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/format.yml/badge.svg)
-![Lint Code](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/lint.yml/badge.svg)
-![Run Tests](https://github.com/haobo-yuan/IDS706-Indiv-1-Polars-Stat/actions/workflows/test.yml/badge.svg)
+![Install Dependencies](https://github.com/haobo-yuan/IDS706-3-Polars-Stat/actions/workflows/install.yml/badge.svg)
+![Format Code](https://github.com/haobo-yuan/IDS706-3-Polars-Stat/actions/workflows/format.yml/badge.svg)
+![Lint Code](https://github.com/haobo-yuan/IDS706-3-Polars-Stat/actions/workflows/lint.yml/badge.svg)
+![Run Tests](https://github.com/haobo-yuan/IDS706-3-Polars-Stat/actions/workflows/test.yml/badge.svg)
 
-# IDS-706 Data Engineering: Individual Project 1
+# IDS-706 Data Engineering: Project 3
 ## AAPL Price Statistics (2010-2021)
-This is a IDS-706 individual project 1 that calculates the mean, median,and standard deviation of AAPL stock close prices from 2010 to 2021.
+This is a IDS-706 week 3 project that also calculates the mean, median,and standard deviation of AAPL stock close prices from 2010 to 2021.
 
 ![Logo Nasdaq](pictures/Logo_Nasdaq.png)![Logo AAPL](pictures/Logo_AAPL.png)
 
@@ -44,7 +44,7 @@ reflecting its resilience and growth in the global tech industry.
 ## Projection Structure
 The primary files in this project are:
 ```
-    IDS706-Indiv-1-Polars-Stat/
+    IDS706-3-Polars-Stat/
     ├── data/
     │   └── NASDAQ_100_Data_From_2010.csv
     ├── pictures/
@@ -57,14 +57,14 @@ The primary files in this project are:
     ├── lib.py
     ├── test_lib.py
     ├── main.ipynb
-    ├── script.py
-    ├── test_script.py
+    ├── main.py
+    ├── test_main.py
     ├── README.md
     ├── requirements.txt
     └── Makefile
 ```
 
 ## Demo Video
-Here is a demo video will show you a detailed explanation of continuous integration using GitHub Actions of Python data science project(individual project #1).
+Because this project is similar to Individual Project 1, so I attach the same vedio here again for your convenience. It is a demo video will show you a detailed explanation of continuous integration using GitHub Actions of Python data science project.
 
 [![Watch the video](https://img.youtube.com/vi/7JXqK_AVBDs/maxresdefault.jpg)](https://youtu.be/7JXqK_AVBDs)
